@@ -1,8 +1,8 @@
 # McKinsey GenAI 3-Day Workshop — Agentic AI Systems
 
-A comprehensive **3-day, instructor-led training program** for building production-grade Agentic AI systems. The curriculum takes participants from LLM fundamentals through LangChain/LangGraph frameworks to production RAG pipelines and multi-agent orchestration — with hands-on coding in every session.
+A comprehensive **3-day, instructor-led training program** for building production-grade Agentic AI systems, designed for McKinsey consultants and enterprise engineering teams. Every demo, exercise, and scenario uses **McKinsey consulting context** — strategy engagements, M&A due diligence, digital transformation, market sizing, and client deliverables — so participants learn AI engineering through the lens of real consulting work.
 
-Built for enterprise engineering teams, this program combines guided demos with progressive hands-on exercises, culminating in a capstone project that participants present and defend.
+The curriculum takes participants from LLM fundamentals through LangChain/LangGraph frameworks to production RAG pipelines and multi-agent orchestration — with hands-on coding in every session.
 
 ---
 
@@ -10,16 +10,18 @@ Built for enterprise engineering teams, this program combines guided demos with 
 
 | Day | Theme | Sessions | Notebooks |
 |-----|-------|----------|-----------|
-| **Day 1** | Foundations, Prompting & Evaluation | 4 sessions (Modules 1-3 + Lab) | 8 notebooks |
+| **Day 1** | Foundations, Prompting & Evaluation | 4 sessions (Modules 1-3 + Lab Review) | 5 notebooks |
 | **Day 2** | LangChain, LangGraph & Multi-Agent | 4 sessions (Modules 4-7) | 8 notebooks |
 | **Day 3** | RAG, Deployment, Capstone & Governance | 4 sessions (Modules 9-11) + 2 capstone tracks | 10 notebooks |
 
-**Total: 26 Jupyter notebooks** (13 student + 13 instructor), **42 README files**, across **12 sessions** over 3 days.
+**Total: 23 Jupyter notebooks** (12 student + 11 instructor), **43 README files**, across **12 sessions** over 3 days.
 
 Every session provides:
-- **Student notebook** — 5 fully coded demos to follow along + 4 hands-on tasks with TODO placeholders and hints
-- **Instructor notebook** — Same 5 demos + 4 fully solved tasks with approach explanations and teaching notes
+- **Student notebook** — Fully coded demos to follow along + hands-on tasks with TODO placeholders and hints
+- **Instructor notebook** — Same demos + fully solved tasks with approach explanations and teaching notes
 - **READMEs** at every level — session overview, student setup guide, instructor facilitation guide
+
+All examples use **McKinsey consulting scenarios**: client engagement planning, MECE problem decomposition, Porter's Five Forces analysis, PE due diligence, post-merger integration, and market entry strategy.
 
 ---
 
@@ -29,10 +31,10 @@ Every session provides:
 
 | Time | Session | Topic |
 |------|---------|-------|
-| 9:00 – 10:45 | Session 1 | **Module 1:** Modern LLM Foundations — architecture, tokenization, API parameters |
-| 11:00 – 12:45 | Session 2 | **Module 2:** Prompt Engineering — few-shot, chain-of-thought, ReAct patterns |
-| 1:30 – 3:15 | Session 3 | **Module 3:** Model Evaluation — metrics, comparison, benchmarking |
-| 3:30 – 5:00 | Session 4 | **Lab Review & Integration** — combine all Day 1 concepts |
+| 9:00 – 10:45 | Session 1 | **Module 1:** Modern LLM Foundations — architecture, tokenization, API parameters, embeddings, reasoning |
+| 11:00 – 12:45 | Session 2 | **Module 2:** Prompt Engineering — few-shot, chain-of-thought, ReAct, LangChain templates |
+| 1:30 – 3:15 | Session 3 | **Module 3:** Model Evaluation — metrics, LLM-as-Judge, benchmarking, sklearn metrics, DeepEval |
+| 3:30 – 5:00 | Session 4 | **Lab Review & Integration** — facilitated review combining all Day 1 concepts |
 
 ### Day 2 — LangChain, LangGraph & Multi-Agent Development
 
@@ -71,44 +73,50 @@ mckinsey-genAi-3Day/
 │   │   └── instructor/ (README.md + notebook)
 │   ├── Session3-Model-Evaluation/
 │   │   ├── README.md
-│   │   ├── student/   (README.md + notebook)
-│   │   └── instructor/ (README.md + notebook)
+│   │   └── student/   (README.md + notebook)
 │   └── Session4-Lab-Review-Integration/
-│       ├── README.md
-│       ├── student/   (README.md + notebook)
-│       └── instructor/ (README.md + notebook)
+│       └── README.md  (facilitated review — no notebook)
 │
 ├── Day2-LangChain-LangGraph-Multi-Agent/
 │   ├── README.md
 │   ├── Session1-OpenAI-API-Structured-Outputs/
+│   │   ├── README.md
 │   │   ├── student/   (README.md + notebook)
 │   │   └── instructor/ (README.md + notebook)
 │   ├── Session2-LangChain-Tool-Integration/
+│   │   ├── README.md
 │   │   ├── student/   (README.md + notebook)
 │   │   └── instructor/ (README.md + notebook)
 │   ├── Session3-LangGraph-Orchestration/
+│   │   ├── README.md
 │   │   ├── student/   (README.md + notebook)
 │   │   └── instructor/ (README.md + notebook)
 │   └── Session4-Multi-Agent-Workflows/
+│       ├── README.md
 │       ├── student/   (README.md + notebook)
 │       └── instructor/ (README.md + notebook)
 │
 ├── Day3-RAG-Deployment-Capstone/
 │   ├── README.md
 │   ├── Session1-Retrieval-Augmented-Generation/
+│   │   ├── README.md
 │   │   ├── student/   (README.md + notebook)
 │   │   └── instructor/ (README.md + notebook)
 │   ├── Session2-Deployment-Scaling/
+│   │   ├── README.md
 │   │   ├── student/   (README.md + notebook)
 │   │   └── instructor/ (README.md + notebook)
 │   ├── Session3-Capstone-Labs/
 │   │   ├── track-a-production-rag/
+│   │   │   ├── README.md
 │   │   │   ├── student/   (README.md + notebook)
 │   │   │   └── instructor/ (README.md + notebook)
 │   │   └── track-b-multi-agent/
+│   │       ├── README.md
 │   │       ├── student/   (README.md + notebook)
 │   │       └── instructor/ (README.md + notebook)
 │   └── Session4-Debrief-Governance/
+│       ├── README.md
 │       ├── student/   (README.md + notebook)
 │       └── instructor/ (README.md + notebook)
 │
@@ -153,14 +161,14 @@ venv\Scripts\activate
 Install all packages needed across all 3 days in one command:
 
 ```bash
-pip install openai tiktoken pydantic langchain langchain-openai langchain-community langgraph langsmith chromadb faiss-cpu pandas matplotlib numpy
+pip install openai tiktoken pydantic langchain langchain-openai langchain-community langgraph langsmith chromadb faiss-cpu pandas matplotlib numpy scikit-learn deepeval
 ```
 
 Or install per day:
 
 ```bash
 # Day 1 only
-pip install openai tiktoken pandas matplotlib numpy
+pip install openai tiktoken pandas matplotlib numpy scikit-learn deepeval langchain langchain-openai
 
 # Day 2 (adds LangChain + LangGraph)
 pip install openai tiktoken pydantic langchain langchain-openai langchain-community langgraph langsmith pandas matplotlib numpy
@@ -204,17 +212,19 @@ Navigate to the appropriate Day and Session folder, then open the **student/** o
 ### If you are a Student
 
 1. **Follow the schedule** — open the student notebook for the current session.
-2. **Run the demos** — each notebook starts with 5 fully coded demos. Run each cell and read the commentary to understand the concepts.
-3. **Complete the tasks** — after the demos, you will find 4 hands-on tasks with `# YOUR CODE HERE` and `# TODO` placeholders. Each task includes hints to guide your implementation.
-4. **Progress through days** — Day 1 builds foundations, Day 2 introduces frameworks, Day 3 puts it all together in a capstone project.
-5. **On Day 3, choose your track** — at the end of Session 2, select Track A (Production RAG Service) or Track B (Multi-Agent Orchestration) for the capstone lab.
+2. **Run the demos** — each notebook starts with fully coded demos. Run each cell and read the commentary to understand the concepts.
+3. **Complete the tasks** — after the demos, you will find hands-on tasks with `# YOUR CODE HERE` and `# TODO` placeholders. Each task includes hints to guide your implementation.
+4. **McKinsey context** — all examples use consulting scenarios (M&A, market sizing, client engagements). Think about how each technique applies to real consulting work.
+5. **Progress through days** — Day 1 builds foundations, Day 2 introduces frameworks, Day 3 puts it all together in a capstone project.
+6. **On Day 3, choose your track** — at the end of Session 2, select Track A (Production RAG Service) or Track B (Multi-Agent Orchestration) for the capstone lab.
 
 ### If you are an Instructor
 
-1. **Use the instructor notebooks** — they contain the same 5 demos plus fully solved versions of all 4 tasks with detailed approach explanations.
+1. **Use the instructor notebooks** — they contain the same demos plus fully solved versions of all tasks with detailed approach explanations.
 2. **Check each session's instructor README** — it includes a timing table, key teaching points, common student questions, and facilitation tips.
-3. **For Day 3 Session 3** — split the room into two tracks. Each track has a self-contained capstone with 4 progressive milestones.
-4. **For Day 3 Session 4** — facilitate cross-track presentations (2 min each), then work through governance demos and exercises.
+3. **Leverage the McKinsey context** — all scenarios are designed around consulting work. Encourage participants to think about how they would apply each technique in real engagements.
+4. **For Day 3 Session 3** — split the room into two tracks. Each track has a self-contained capstone with progressive milestones.
+5. **For Day 3 Session 4** — facilitate cross-track presentations (2 min each), then work through governance demos and exercises.
 
 ### If you are Self-Studying
 
@@ -234,17 +244,18 @@ Navigate to the appropriate Day and Session folder, then open the **student/** o
 | **OpenAI API** | LLM inference (chat completions, embeddings) | All 3 days |
 | **GPT-4o-mini** | Primary model for demos and tasks (fast, cost-effective) | All 3 days |
 | **GPT-4o** | Complex tasks, model routing for advanced queries | Day 2-3 |
-| **text-embedding-3-small** | Text embedding for semantic search and RAG | Day 3 |
+| **text-embedding-3-small** | Text embedding for semantic search and RAG | Day 1, Day 3 |
 
 ### Frameworks & Libraries
 
 | Technology | Purpose | Used In |
 |-----------|---------|---------|
-| **LangChain** | LLM application framework — chains, prompts, tools, output parsers | Day 2-3 |
-| **LangChain LCEL** | Declarative chain composition using the pipe (`\|`) operator | Day 2-3 |
+| **LangChain** | LLM application framework — chains, prompts, tools, output parsers | Day 1-3 |
+| **LangChain LCEL** | Declarative chain composition using the pipe (`|`) operator | Day 2-3 |
 | **LangGraph** | Stateful graph-based workflow orchestration with cycles and conditional edges | Day 2-3 |
 | **ChromaDB** | In-memory vector database for embedding storage and similarity search | Day 3 |
 | **FAISS** | High-performance vector similarity search (alternative to ChromaDB) | Day 3 |
+| **DeepEval** | LLM evaluation framework with G-Eval and relevancy metrics | Day 1 |
 
 ### Data & Validation
 
@@ -252,27 +263,43 @@ Navigate to the appropriate Day and Session folder, then open the **student/** o
 |-----------|---------|---------|
 | **Pydantic** | Data validation, structured output schemas | Day 2-3 |
 | **tiktoken** | OpenAI tokenizer for token counting and cost estimation | Day 1-2 |
+| **scikit-learn** | Classification metrics (precision, recall, F1) for evaluation | Day 1 |
 | **NumPy** | Numerical operations (cosine similarity, metrics) | Day 1-3 |
 | **Pandas** | Data analysis and tabular output | Day 1 |
-| **Matplotlib** | Visualization of evaluation metrics | Day 1 |
+| **Matplotlib** | Visualization of evaluation metrics and embeddings | Day 1 |
 
 ### Key Patterns Covered
 
 | Pattern | Description | Session |
 |---------|-------------|---------|
-| **Prompt Engineering** | Few-shot, chain-of-thought, ReAct | Day 1, Session 2 |
-| **Structured Outputs** | JSON mode, function calling, Pydantic validation | Day 2, Session 1 |
-| **LCEL Chains** | Composable prompt → model → parser pipelines | Day 2, Session 2 |
-| **Tool Use** | Custom `@tool` functions bound to LLMs | Day 2, Session 2 |
-| **StateGraph Workflows** | Conditional edges, cycles, human-in-the-loop | Day 2, Session 3 |
-| **Multi-Agent Systems** | Supervisor-worker, handoffs, parallel execution | Day 2, Session 4 |
-| **RAG Pipeline** | Embed → index → retrieve → generate with citations | Day 3, Session 1 |
-| **Advanced Chunking** | Recursive, markdown-aware, sentence-level splitting | Day 3, Session 1 |
-| **Query Transformation** | Multi-query expansion, HyDE (Hypothetical Document Embeddings) | Day 3, Session 1 |
-| **Semantic Caching** | Embedding-based cache for similar (not just identical) queries | Day 3, Session 2 |
-| **Model Routing** | Complexity-based routing to cheaper/expensive models | Day 3, Session 2 |
-| **LLM-as-Judge Evaluation** | Automated quality scoring (relevance, faithfulness, completeness) | Day 3, Sessions 1-4 |
-| **AI Governance** | Guardrails, bias detection, audit logging, deployment readiness | Day 3, Session 4 |
+| **Prompt Engineering** | Few-shot, chain-of-thought, ReAct — applied to McKinsey consulting analysis | Day 1, Session 2 |
+| **Embeddings & Vectors** | Consulting document embeddings, similarity, PCA/t-SNE visualization | Day 1, Session 1 |
+| **LLM Reasoning** | MECE decomposition, engagement planning, tool selection for consulting workflows | Day 1, Session 1 |
+| **Structured Outputs** | JSON mode, function calling, Pydantic — extracting client profiles and engagement data | Day 1-2 |
+| **LCEL Chains** | Composable prompt → model → parser pipelines for consulting analysis | Day 2, Session 2 |
+| **Tool Use** | Custom consulting tools (market research, financial modeling, benchmarking) | Day 2, Session 2 |
+| **StateGraph Workflows** | Conditional edges, cycles — modeling consulting engagement lifecycles | Day 2, Session 3 |
+| **Multi-Agent Systems** | Supervisor-worker teams modeling McKinsey engagement structures | Day 2, Session 4 |
+| **RAG Pipeline** | Embed → index → retrieve → generate with McKinsey knowledge bases | Day 3, Session 1 |
+| **Advanced Chunking** | Recursive, markdown-aware splitting of consulting reports and whitepapers | Day 3, Session 1 |
+| **Query Transformation** | Multi-query expansion, HyDE for comprehensive consulting research | Day 3, Session 1 |
+| **Semantic Caching** | Embedding-based cache for similar consulting queries | Day 3, Session 2 |
+| **Model Routing** | Complexity-based routing (simple lookups vs. strategy analysis) | Day 3, Session 2 |
+| **LLM-as-Judge Evaluation** | Automated quality scoring for consulting deliverables | Day 1, Day 3 |
+| **AI Governance** | Guardrails, bias detection, audit logging for consulting AI deployment | Day 3, Session 4 |
+
+---
+
+## McKinsey Consulting Context
+
+All exercises throughout the program use realistic McKinsey consulting scenarios:
+
+- **Strategy & Growth:** Market entry assessments, Three Horizons of Growth analysis, competitive landscape mapping
+- **M&A & Due Diligence:** Post-merger integration, PE portfolio company evaluation, deal screening
+- **Digital Transformation:** Omnichannel retail strategy, AI-powered diagnostics, supply chain digitization
+- **Operations Excellence:** Cost optimization programs, supply chain resilience, operating model design
+- **Client Engagement:** CEO briefings, engagement scoping, MECE problem decomposition, deliverable preparation
+- **Frameworks:** Porter's Five Forces, 7-S Model, Value Chain Analysis, Growth-Share Matrix
 
 ---
 
@@ -281,21 +308,21 @@ Navigate to the appropriate Day and Session folder, then open the **student/** o
 By completing this program, participants will be able to:
 
 **Day 1 — Foundations**
-1. Explain modern LLM architectures and their role in agentic systems
-2. Apply prompt engineering techniques (few-shot, CoT, ReAct) to drive agent behaviors
-3. Evaluate and compare LLM models using structured metrics
+1. Explain modern LLM architectures, embeddings, and reasoning capabilities for agentic consulting systems
+2. Apply prompt engineering techniques (few-shot, CoT, ReAct) to McKinsey consulting analysis and deliverables
+3. Evaluate and compare LLM models using structured metrics, sklearn classification metrics, and DeepEval
 
 **Day 2 — Frameworks**
-4. Engineer structured outputs using JSON mode, function calling, and Pydantic
-5. Build tool-augmented chains with LangChain and LCEL
-6. Design stateful workflows with LangGraph (StateGraph, conditional edges, cycles)
-7. Architect multi-agent systems with supervisor-worker and handoff patterns
+4. Engineer structured outputs using JSON mode, function calling, and Pydantic for consulting data extraction
+5. Build tool-augmented LLM chains with LangChain and LCEL for consulting analysis pipelines
+6. Design stateful consulting workflows with LangGraph (StateGraph, conditional edges, cycles)
+7. Architect multi-agent systems modeling McKinsey engagement teams with supervisor-worker patterns
 
 **Day 3 — Production**
-8. Build production RAG pipelines with embeddings, vector stores, chunking, and reranking
-9. Deploy LLM services with caching, monitoring, model routing, and cost controls
-10. Complete an end-to-end capstone project (Production RAG or Multi-Agent system)
-11. Evaluate AI systems against governance criteria and design deployment readiness assessments
+8. Build production RAG pipelines with McKinsey knowledge bases, embeddings, vector stores, and reranking
+9. Deploy consulting AI services with caching, monitoring, model routing, and cost controls
+10. Complete an end-to-end capstone project (Production RAG or Multi-Agent system) for consulting use cases
+11. Evaluate AI systems against governance criteria and design deployment readiness assessments for consulting firms
 
 ---
 
@@ -308,6 +335,7 @@ By completing this program, participants will be able to:
 | `RateLimitError` from OpenAI | You have hit your API rate limit. Wait 60 seconds and retry, or check your OpenAI usage dashboard |
 | ChromaDB import errors | Run `pip install chromadb` — requires Python 3.9+ |
 | LangGraph import errors | Run `pip install langgraph` — requires `langchain-core >= 0.2` |
+| DeepEval import errors | Run `pip install deepeval` — requires Python 3.9+ |
 | Notebooks not rendering | Ensure Jupyter is installed: `pip install jupyter` and launch with `jupyter notebook` |
 | FAISS install fails on Apple Silicon | Use `pip install faiss-cpu` (not `faiss-gpu`) |
 

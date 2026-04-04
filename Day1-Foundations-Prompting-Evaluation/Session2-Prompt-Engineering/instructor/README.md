@@ -10,29 +10,30 @@
 
 | Segment | Duration | Content |
 |---|---|---|
-| Introduction | 10 min | Recap of Session 1, session objectives |
-| Demo 1 | 12 min | Zero-shot vs. few-shot prompting |
-| Demo 2 | 12 min | Chain-of-Thought prompting |
-| Demo 3 | 10 min | Role-based prompting for agents |
-| Demo 4 | 10 min | Structured output generation |
-| Demo 5 | 10 min | Multi-turn conversation management |
-| Task 1 | 10 min | Design system prompts |
-| Task 2 | 10 min | ReAct-style prompting |
-| Task 3 | 10 min | Prompt template library |
-| Task 4 | 15 min | Multi-step reasoning agent |
-| Wrap-up | 6 min | Q&A and bridge to Session 3 |
+| Introduction | 8 min | Recap of Session 1, session objectives |
+| Demo 1 | 10 min | Zero-shot vs. few-shot — client feedback classification |
+| Demo 2 | 10 min | Chain-of-Thought — retail restructuring analysis |
+| Demo 3 | 10 min | Role-based personas — McKinsey practice area leads |
+| Demo 4 | 10 min | Structured output — client executive data extraction |
+| Demo 5 | 10 min | Multi-turn conversation — engagement planning |
+| Demo 6 | 10 min | LangChain templates — structured consulting deliverables |
+| Task 1 | 10 min | McKinsey Industry Research Agent |
+| Task 2 | 10 min | ReAct for PE due diligence |
+| Task 3 | 8 min | McKinsey prompt template library |
+| Task 4 | 12 min | McKinsey Analyst Agent with tools |
+| Wrap-up | 7 min | Q&A and bridge to Session 3 |
 
 ### What's Inside
 
-- **5 Demos** — Fully executed with detailed commentary
+- **6 Demos** — Fully executed with detailed commentary
 - **4 Solved Tasks** — Complete solutions with explanations of design choices
 
 ### Key Teaching Points
 
-1. Show side-by-side comparisons of zero-shot vs. few-shot to make the impact tangible
-2. Chain-of-Thought is the backbone of agentic reasoning — spend extra time here
-3. Structured outputs (JSON mode) are essential for tool-calling agents
-4. Emphasize that prompt engineering is iterative — show failed attempts and improvements
+1. Show side-by-side comparisons of zero-shot vs. few-shot on client feedback to make the impact tangible
+2. Chain-of-Thought mirrors McKinsey's structured problem-solving — connect it to MECE and hypothesis-driven thinking
+3. The three practice-area personas (Demo 3) show how the same question gets different analyses from different specialist agents
+4. LangChain (Demo 6) provides reusable patterns that scale across engagements — emphasize the composability
 
 ### Common Student Questions
 

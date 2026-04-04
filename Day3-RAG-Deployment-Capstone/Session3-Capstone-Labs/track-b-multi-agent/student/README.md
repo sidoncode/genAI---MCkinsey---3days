@@ -1,6 +1,6 @@
 # Track B — Student Notebook
 
-## Multi-Agent Orchestration Capstone
+## McKinsey Engagement Team (Multi-Agent Capstone)
 
 ### Setup Instructions
 
@@ -20,7 +20,7 @@
 
 ### What's Inside
 
-- **Guided capstone project** with 4 milestones
+- **Guided capstone project** — build a McKinsey Engagement Team simulation with 4 milestones
 - Each milestone builds on the previous one
 - TODO placeholders with detailed hints at each step
 
@@ -28,14 +28,14 @@
 
 | Milestone | Topic | Duration |
 |---|---|---|
-| Milestone 1 | Supervisor & task decomposition | ~20 min |
-| Milestone 2 | Specialized worker agents with tools | ~25 min |
-| Milestone 3 | LangGraph orchestration | ~25 min |
-| Milestone 4 | Quality evaluation & self-correction | ~25 min |
+| Milestone 1 | EngagementManagerAgent supervisor & workstream decomposition | ~20 min |
+| Milestone 2 | Specialist consulting agents (Strategy, Financial, Operations, Industry) | ~25 min |
+| Milestone 3 | LangGraph engagement orchestration | ~25 min |
+| Milestone 4 | Partner Review quality loop for deliverable refinement | ~25 min |
 
 ### Tips
 
 - Work through milestones in order — each builds on the last
-- Test each agent individually before orchestrating them together
-- Think about what information each agent needs from others
-- You will present your system in Session 4
+- Test each consulting agent individually before orchestrating them together
+- Think about what a Partner Review looks for: strategic coherence, MECE structure, actionable recommendations
+- You will present your McKinsey Engagement Team system in Session 4

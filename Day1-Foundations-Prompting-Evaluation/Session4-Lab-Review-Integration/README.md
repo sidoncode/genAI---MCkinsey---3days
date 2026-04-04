@@ -4,34 +4,30 @@
 
 ## Overview
 
-This capstone session integrates all Day 1 concepts — LLM foundations, prompt engineering, and model evaluation — into a cohesive agentic system. Participants will build an end-to-end prototype, implement evaluation-driven refinement, add error handling, and deploy a working agentic system.
+This capstone session is a **facilitated review and discussion** that integrates all Day 1 concepts — LLM foundations, prompt engineering, and model evaluation — through the lens of McKinsey consulting applications. The instructor leads participants through reflection on how each concept applies to real consulting workflows, connecting the technical skills to practical engagement scenarios.
 
-## Key Topics
+## Format
 
-- Integrating LLM foundations with prompt engineering
-- End-to-end agentic system prototyping
-- Evaluation-driven prompt refinement loops
-- Error handling and fallback strategies for agents
-- Deploying and documenting an agentic system
+This is a **discussion-driven session** — no notebook is required. The instructor facilitates:
 
-## Notebooks
+1. **Review of key concepts** from Sessions 1–3
+2. **Integration discussion** — how do foundations, prompting, and evaluation come together in consulting AI systems?
+3. **Reflection on McKinsey context** — which techniques are most valuable for different types of engagements?
+4. **Preview of Day 2** — how LangChain, LangGraph, and multi-agent systems build on today's foundations
 
-| Notebook | Description |
-|---|---|
-| `student/Session4_Student_Lab_Review.ipynb` | Guided demos + TODO exercises with hints |
-| `instructor/Session4_Instructor_Lab_Review.ipynb` | Fully solved demos + exercises with explanations |
+## Key Discussion Topics
 
-## Demos (5)
+- How would you design a consulting AI system using today's techniques?
+- Which evaluation criteria matter most for partner-quality consulting deliverables?
+- How do embeddings and RAG (previewed today) connect to the full RAG pipeline on Day 3?
+- What are the trade-offs between different prompting strategies for consulting use cases?
 
-1. **Demo 1:** Integrating LLM foundations with prompt engineering
-2. **Demo 2:** End-to-end agentic system prototype
-3. **Demo 3:** Evaluation-driven prompt refinement
-4. **Demo 4:** Error handling and fallback strategies
-5. **Demo 5:** Packaging and running the complete agentic system
+## Suggested Timing
 
-## Exercises (4)
-
-1. **Task 1:** Build a complete agentic workflow from scratch
-2. **Task 2:** Implement an evaluation-driven feedback loop
-3. **Task 3:** Add robust error handling and recovery
-4. **Task 4:** Document and present your agentic system design
+| Segment | Duration | Content |
+|---|---|---|
+| Recap & Review | 20 min | Key takeaways from Sessions 1–3 |
+| Integration Exercise | 25 min | Design a consulting AI system on paper |
+| Group Discussion | 25 min | Share designs, compare approaches |
+| Day 2 Preview | 15 min | LangChain, LangGraph, multi-agent overview |
+| Q&A | 5 min | Open questions |

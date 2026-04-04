@@ -1,6 +1,6 @@
 # Track A — Instructor Notebook
 
-## Production RAG Service Capstone
+## McKinsey Knowledge Assistant (Production RAG Capstone)
 
 ### Teaching Notes
 
@@ -10,21 +10,21 @@
 
 | Segment | Duration | Content |
 |---|---|---|
-| Intro & Setup | 5 min | Project overview, verify environments |
-| Milestone 1 | 20 min | Ingestion & chunking |
-| Milestone 2 | 25 min | Embedding & retrieval |
-| Milestone 3 | 25 min | Generation with citations |
-| Milestone 4 | 25 min | Evaluation pipeline |
-| Wrap-up | 5 min | Prepare for Session 4 presentations |
+| Intro & Setup | 5 min | Project overview — building a McKinsey Knowledge Assistant |
+| Milestone 1 | 20 min | Consulting document ingestion & practice area chunking |
+| Milestone 2 | 25 min | Embedding & hybrid retrieval over McKinsey knowledge base |
+| Milestone 3 | 25 min | MECE-structured answers with source citations |
+| Milestone 4 | 25 min | Consulting-specific evaluation pipeline |
+| Wrap-up | 5 min | Prepare for Session 4 cross-track presentations |
 
 ### What's Inside
 
 - **Complete capstone solution** with detailed explanations at each milestone
-- Ready to run end-to-end as a reference
+- Ready to run end-to-end as a McKinsey Knowledge Assistant reference
 
 ### Key Teaching Points
 
-1. This capstone integrates Day 1 (LLM basics), Day 2 (LangChain/tools), and Day 3 (RAG/deployment)
-2. Encourage students to experiment with chunk sizes and overlap
-3. The evaluation milestone is critical — show how metrics drive improvement
-4. Students should prepare a 2-minute demo for Session 4
+1. This capstone integrates Day 1 (LLM foundations), Day 2 (LangChain/tools), and Day 3 (RAG/deployment) — all applied to consulting knowledge management
+2. Encourage students to experiment with chunk sizes and overlap for different consulting document types
+3. The evaluation milestone is critical — consulting-specific metrics (strategic relevance, executive readiness) go beyond generic RAG evaluation
+4. Students should prepare a 2-minute demo for Session 4 cross-track presentations

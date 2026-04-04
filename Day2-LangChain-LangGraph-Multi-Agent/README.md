@@ -1,6 +1,8 @@
 # Day 2 — LangChain, LangGraph & Multi-Agent Development
 
-Welcome to Day 2 of the **Agentic AI Systems** training program. Building on Day 1's foundations, this day takes you from raw API engineering to production-grade agentic frameworks — structured outputs with the OpenAI API, LangChain for tool-augmented chains, LangGraph for stateful workflow orchestration, and multi-agent architectures for complex problem-solving.
+Welcome to Day 2 of the **McKinsey Agentic AI Systems** training program. Building on Day 1's foundations, this day takes you from raw API engineering to production-grade agentic frameworks — structured outputs with the OpenAI API, LangChain for tool-augmented chains, LangGraph for stateful workflow orchestration, and multi-agent architectures for complex consulting problem-solving.
+
+All demos and exercises use **McKinsey consulting scenarios**: extracting structured client profiles, building consulting analysis tools, orchestrating engagement workflows, and coordinating multi-agent teams that model real McKinsey engagement structures.
 
 ---
 
@@ -63,15 +65,14 @@ Day2-LangChain-LangGraph-Multi-Agent/
 
 ### For Students
 - Open the **student/** notebook for the current session.
-- Each notebook contains **5 guided demos** to follow along and **4 hands-on tasks** with TODO placeholders and hints.
+- Each notebook contains **guided demos** to follow along and **hands-on tasks** with TODO placeholders and hints.
+- All scenarios use McKinsey consulting context — structured client data extraction, consulting tool pipelines, engagement workflows, and multi-agent consulting teams.
 - Complete each task by filling in the code where indicated.
-- Refer to the student `README.md` for setup instructions and task summaries.
 
 ### For Instructors
 - Open the **instructor/** notebook for the current session.
-- Each notebook contains the **same 5 demos** with detailed commentary and **4 fully solved tasks** with explanations.
-- Use these as a reference during live delivery or for review.
-- Refer to the instructor `README.md` for teaching notes and timing guidance.
+- Each notebook contains the **same demos** with detailed commentary and **fully solved tasks** with explanations.
+- Leverage the McKinsey scenarios to make abstract framework concepts concrete and relevant.
 
 ---
 
@@ -93,7 +94,7 @@ pip install openai tiktoken pydantic langchain langchain-openai langchain-commun
 
 By the end of Day 2, participants will be able to:
 
-1. Engineer structured, validated outputs from the OpenAI API using JSON mode, function calling, and Pydantic
-2. Build tool-augmented LLM chains with LangChain and LCEL
-3. Design stateful, branching workflows using LangGraph's StateGraph
-4. Architect multi-agent systems with supervisor, worker, and handoff patterns
+1. Engineer structured, validated outputs from the OpenAI API using JSON mode, function calling, and Pydantic for consulting data extraction
+2. Build tool-augmented LLM chains with LangChain and LCEL for consulting analysis pipelines
+3. Design stateful consulting engagement workflows using LangGraph's StateGraph with conditional routing
+4. Architect multi-agent systems modeling McKinsey engagement teams with supervisor-worker and handoff patterns

@@ -1,19 +1,18 @@
-# Session 1: Retrieval-Augmented Generation (RAG)
+# Session 1: Retrieval-Augmented Generation for Consulting Knowledge
 
 **Time:** 9:00 – 10:45 (1 hour 45 minutes) | **Shared session — all participants**
 
 ## Overview
 
-This session takes RAG from the simple keyword-matching demo in Day 2 to a production-grade pipeline. Participants will learn embedding-based retrieval, vector stores, advanced chunking strategies, query transformation, and reranking — the techniques that make RAG systems reliable in the real world.
+This session takes RAG from the simple keyword-matching demo in Day 2 to a production-grade pipeline built on McKinsey consulting knowledge. Participants will learn embedding-based retrieval over consulting documents, vector stores with practice area metadata, advanced chunking strategies for consulting reports, query transformation for research questions, and reranking — the techniques that make consulting knowledge assistants reliable.
 
 ## Key Topics
 
-- Embedding models and semantic similarity
-- Vector stores (ChromaDB / FAISS)
-- Advanced chunking strategies (recursive, semantic, parent-child)
-- Query transformation (HyDE, multi-query)
-- Retrieval evaluation and reranking
-- End-to-end RAG pipeline with source citations
+- Embedding models applied to consulting knowledge (digital transformation, PMI, supply chain)
+- Vector stores (ChromaDB) with McKinsey practice area metadata
+- Advanced chunking strategies for consulting reports (PMI best practices, engagement playbooks)
+- Query transformation (HyDE, multi-query expansion) for consulting research
+- End-to-end RAG pipeline with source citations from engagement playbooks
 
 ## Notebooks
 
@@ -24,15 +23,15 @@ This session takes RAG from the simple keyword-matching demo in Day 2 to a produ
 
 ## Demos (5)
 
-1. **Demo 1:** Embedding models — creating and comparing text embeddings
-2. **Demo 2:** Vector stores — indexing and similarity search with ChromaDB
-3. **Demo 3:** Advanced chunking strategies for better retrieval
-4. **Demo 4:** Query transformation techniques (HyDE, multi-query)
-5. **Demo 5:** End-to-end RAG pipeline with source citations
+1. **Demo 1:** Embeddings on consulting knowledge — digital transformation, PMI, omnichannel, supply chain
+2. **Demo 2:** ChromaDB vector store — "mckinsey_knowledge_base" collection with practice area metadata
+3. **Demo 3:** Advanced chunking of PMI best practice guides
+4. **Demo 4:** Multi-query expansion and HyDE for consulting research questions
+5. **Demo 5:** End-to-end RAG with source citations from engagement playbooks
 
 ## Exercises (4)
 
-1. **Task 1:** Build an embedding-based document search engine
-2. **Task 2:** Implement a multi-strategy chunking pipeline
-3. **Task 3:** Create a query expansion and reranking system
-4. **Task 4:** Build a production RAG pipeline with evaluation metrics
+1. **Task 1:** Build a SearchEngine class over a consulting knowledge corpus
+2. **Task 2:** Implement a SmartChunker that detects strategy reports, analytics code, and engagement notes
+3. **Task 3:** Create an AdvancedRetriever with query expansion and reranking
+4. **Task 4:** Build an EvaluatedRAG system with relevance, faithfulness, and completeness metrics

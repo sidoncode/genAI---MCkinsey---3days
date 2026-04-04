@@ -1,6 +1,6 @@
 # Session 4 — Instructor Notebook
 
-## Multi-Agent Workflows & Agentic Systems
+## Multi-Agent Workflows for McKinsey Engagement Teams
 
 ### Teaching Notes
 
@@ -10,32 +10,32 @@
 
 | Segment | Duration | Content |
 |---|---|---|
-| Introduction | 8 min | Multi-agent motivation and patterns overview |
-| Demo 1 | 10 min | Supervisor-worker pattern |
-| Demo 2 | 10 min | Agent handoff and communication |
-| Demo 3 | 10 min | Parallel agent execution |
-| Demo 4 | 10 min | Collaborative writing agents |
-| Demo 5 | 10 min | End-to-end multi-agent system |
-| Task 1 | 8 min | Two-agent supervisor-worker |
-| Task 2 | 8 min | Agent handoff |
-| Task 3 | 10 min | Parallel research pipeline |
-| Task 4 | 12 min | Complete architecture design |
+| Introduction | 8 min | Multi-agent motivation — McKinsey team structures as design patterns |
+| Demo 1 | 10 min | Supervisor-worker: Partner → analyst + strategist + ops expert |
+| Demo 2 | 10 min | Agent handoff: Strategy → Operations → Implementation |
+| Demo 3 | 10 min | Parallel M&A due diligence workstreams |
+| Demo 4 | 10 min | Collaborative presentation creation |
+| Demo 5 | 10 min | End-to-end engagement intake & delivery |
+| Task 1 | 8 min | EM routing (quantitative vs. strategic) |
+| Task 2 | 8 min | Industry landscape assessment |
+| Task 3 | 10 min | Cross-functional transformation |
+| Task 4 | 12 min | Complete M&A due diligence system |
 | Wrap-up | 4 min | Day 2 review and Day 3 preview |
 
 ### What's Inside
 
-- **5 Demos** — Fully executed with detailed commentary and talking points
+- **5 Demos** — Fully executed with detailed commentary and McKinsey consulting talking points
 - **4 Solved Tasks** — Complete solutions with step-by-step explanations
 
 ### Key Teaching Points
 
-1. Multi-agent systems decompose complex problems into specialized sub-tasks
-2. The supervisor pattern is the most common starting point — one orchestrator, many workers
-3. Agent handoff requires careful context management — what state transfers between agents
-4. Not everything needs multi-agent — use the simplest architecture that solves the problem
+1. McKinsey engagement teams naturally map to multi-agent architectures — Partner as supervisor, Associates as specialized workers
+2. The supervisor pattern is the most common starting point — one Engagement Manager orchestrates many specialists
+3. Agent handoff mirrors consulting workflow stages — Strategy → Operations → Implementation requires careful context management
+4. Not everything needs multi-agent — use the simplest architecture that solves the consulting problem
 
 ### Common Student Questions
 
-- "When should I use multi-agent vs. a single agent?" — When tasks require distinct expertise or can be parallelized
-- "How do agents share information?" — Through shared state in LangGraph, or message passing
-- "What about error handling across agents?" — Supervisor should handle failures and reassign or retry
+- "When should I use multi-agent vs. a single agent?" — When tasks require distinct expertise (financial analysis vs. strategy) or can be parallelized (M&A workstreams)
+- "How do agents share information?" — Through shared engagement state in LangGraph, or structured message passing
+- "What about error handling across agents?" — The Engagement Manager (supervisor) should handle failures and reassign or escalate
