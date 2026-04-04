@@ -1,6 +1,6 @@
 # Session 3 — Student Notebook
 
-## LangGraph Orchestration & Workflow Design
+## LangGraph Orchestration for Consulting Workflows
 
 ### Setup Instructions
 
@@ -20,21 +20,21 @@
 
 ### What's Inside
 
-- **5 Demos** — Follow along with the instructor. Run each cell and observe the outputs.
-- **4 Hands-On Tasks** — Complete the TODO sections. Each task includes hints to guide you.
+- **5 Demos** — Follow along with the instructor. Run each cell to see how LangGraph models McKinsey consulting engagement workflows.
+- **4 Hands-On Tasks** — Complete the TODO sections to build consulting workflow orchestrations. Each task includes hints.
 
 ### Task Summary
 
 | Task | Topic | Difficulty |
 |---|---|---|
-| Task 1 | Build a simple linear workflow with LangGraph | Beginner |
-| Task 2 | Create a conditional routing agent | Intermediate |
-| Task 3 | Implement a self-correcting code generation workflow | Intermediate |
-| Task 4 | Build a research agent with planning and execution nodes | Advanced |
+| Task 1 | Build a client onboarding pipeline (GlobalRetail Corp) | Beginner |
+| Task 2 | Create a PE due diligence router (quick_screen / standard / deep_dive) | Intermediate |
+| Task 3 | Implement a MECE analysis refinement loop (cloud computing market) | Intermediate |
+| Task 4 | Build a market entry assessment agent (US digital health → India) | Advanced |
 
 ### Tips
 
 - Read the hints carefully before writing code
 - Run demo cells first to understand the patterns
-- Think of LangGraph as a flowchart — nodes are steps, edges are transitions
-- Draw out your graph on paper before coding it
+- Think of LangGraph as a flowchart for consulting engagements — nodes are analysis steps, edges are transitions
+- Draw out your engagement workflow on paper before coding it

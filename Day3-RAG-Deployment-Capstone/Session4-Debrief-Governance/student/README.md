@@ -1,6 +1,6 @@
 # Session 4 — Student Notebook
 
-## Cross-Track Debrief, Governance & Closing
+## Cross-Track Debrief, Consulting AI Governance & Closing
 
 ### Setup Instructions
 
@@ -12,22 +12,22 @@
 
 ### What's Inside
 
-- **5 Demos** — Governance and safety patterns for LLM applications
-- **4 Hands-On Tasks** — Apply governance concepts to your own capstone project
-- **Presentation slot** — Share your capstone with the other track
+- **5 Demos** — Governance and safety patterns for McKinsey consulting AI applications
+- **4 Hands-On Tasks** — Apply governance concepts to ensure your consulting AI meets McKinsey standards
+- **Presentation slot** — Share your capstone (Knowledge Assistant or Engagement Team) with the other track
 
 ### Task Summary
 
 | Task | Topic | Difficulty |
 |---|---|---|
-| Task 1 | Implement input/output guardrails | Beginner |
-| Task 2 | Build a bias detection pipeline | Intermediate |
-| Task 3 | Create a governance scorecard for your capstone | Intermediate |
-| Task 4 | Write a deployment readiness assessment | Advanced |
+| Task 1 | Implement a PolicyGuardrail with configurable severity (block / warn / allow) | Beginner |
+| Task 2 | Build a BiasDetector for industry and geographic bias | Intermediate |
+| Task 3 | Create a GovernanceScorecard with 8 McKinsey governance criteria | Intermediate |
+| Task 4 | Write a DeploymentReadiness assessment (technical / governance / operational) | Advanced |
 
 ### Tips
 
-- Prepare a 2-minute demo of your capstone project
-- Think about what could go wrong with your system in production
-- Governance is not optional — it is a core engineering responsibility
-- Take notes on the other track's presentations for cross-pollination
+- Prepare a 2-minute demo of your capstone project (McKinsey Knowledge Assistant or Engagement Team)
+- Think about what could go wrong with consulting AI in production — client data leakage, biased recommendations, hallucinated citations
+- Governance is not optional — it is a core engineering responsibility for any AI system touching client work
+- Take notes on the other track's presentations — the best consulting AI systems combine RAG and multi-agent approaches

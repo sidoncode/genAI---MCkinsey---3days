@@ -4,15 +4,15 @@
 
 ## Overview
 
-This session moves beyond basic chat completions into production-grade API engineering. Participants will master structured output generation using JSON mode, function calling (tool use), and Pydantic validation — skills essential for building reliable agentic systems that produce machine-readable outputs.
+This session moves beyond basic chat completions into production-grade API engineering for McKinsey consulting applications. Participants will master structured output generation using JSON mode, function calling (tool use), and Pydantic validation — skills essential for building reliable consulting AI systems that produce machine-readable outputs from client engagements, market research, and financial analysis.
 
 ## Key Topics
 
-- OpenAI Chat Completions API deep dive (streaming, usage tracking)
-- Structured outputs with JSON mode and `response_format`
-- Function calling / tool use with the OpenAI API
-- Pydantic models for response parsing and validation
-- Building robust API wrappers with retries and error handling
+- OpenAI Chat Completions API deep dive (streaming CEO briefings, token usage tracking)
+- Structured outputs with JSON mode for client profile extraction
+- Function calling / tool use for consulting tools (market research, financial analysis)
+- Pydantic models for validating consulting data (EngagementSummary, client profiles)
+- Building robust consulting API wrappers with retries and error handling
 
 ## Notebooks
 
@@ -23,15 +23,15 @@ This session moves beyond basic chat completions into production-grade API engin
 
 ## Demos (5)
 
-1. **Demo 1:** OpenAI API deep dive — streaming, token usage, and finish reasons
-2. **Demo 2:** Structured output with JSON mode
-3. **Demo 3:** Function calling — defining and using tools
-4. **Demo 4:** Pydantic-based response validation
-5. **Demo 5:** Building a structured data extraction pipeline
+1. **Demo 1:** OpenAI API deep dive — streaming CEO briefings, token usage tracking
+2. **Demo 2:** Structured output with JSON mode — extracting client profiles
+3. **Demo 3:** Function calling — defining and using a market research tool
+4. **Demo 4:** Pydantic-based EngagementSummary validation
+5. **Demo 5:** Building an engagement team extraction pipeline
 
 ## Exercises (4)
 
-1. **Task 1:** Build a structured entity extractor using JSON mode
-2. **Task 2:** Implement a calculator tool with function calling
-3. **Task 3:** Create a multi-tool agent with automatic tool dispatch
-4. **Task 4:** Build a robust API client with retries, validation, and streaming
+1. **Task 1:** Build a competitive intelligence extractor from M&A briefings
+2. **Task 2:** Implement a financial analysis tool with function calling (Meridian Health, Apex Energy)
+3. **Task 3:** Create a multi-tool consulting agent (market_research + financial_analysis + benchmarking)
+4. **Task 4:** Build a RobustConsultingClient with retries, Pydantic validation, and streaming

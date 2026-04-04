@@ -1,6 +1,6 @@
 # Session 4 — Student Notebook
 
-## Multi-Agent Workflows & Agentic Systems
+## Multi-Agent Workflows for McKinsey Engagement Teams
 
 ### Setup Instructions
 
@@ -20,21 +20,21 @@
 
 ### What's Inside
 
-- **5 Demos** — Follow along with the instructor. Run each cell and observe the outputs.
-- **4 Hands-On Tasks** — Complete the TODO sections. Each task includes hints to guide you.
+- **5 Demos** — Follow along with the instructor. Run each cell to see how multi-agent systems model McKinsey engagement team structures.
+- **4 Hands-On Tasks** — Complete the TODO sections to build consulting multi-agent systems. Each task includes hints.
 
 ### Task Summary
 
 | Task | Topic | Difficulty |
 |---|---|---|
-| Task 1 | Build a two-agent supervisor-worker system | Intermediate |
-| Task 2 | Implement agent handoff with context preservation | Intermediate |
-| Task 3 | Create a parallel research and synthesis pipeline | Advanced |
-| Task 4 | Design and document a complete multi-agent architecture | Advanced |
+| Task 1 | Build an Engagement Manager that routes quantitative vs. strategic requests | Intermediate |
+| Task 2 | Implement an industry landscape assessment pipeline (renewable energy for PE) | Intermediate |
+| Task 3 | Create a cross-functional transformation system ($5B consumer goods) | Advanced |
+| Task 4 | Design a complete M&A due diligence system (MedTech Solutions $200M acquisition) | Advanced |
 
 ### Tips
 
 - Read the hints carefully before writing code
 - Run demo cells first to understand the patterns
-- Think about which parts of a problem can be parallelized vs. must be sequential
-- Consider what information each agent needs from other agents
+- Think about McKinsey engagement teams: who leads, who does the analysis, how do workstreams coordinate?
+- Consider what information each agent needs from other agents — just like Associates sharing findings with the Partner

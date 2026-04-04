@@ -1,4 +1,4 @@
-# Session 3 — Instructor Notebook
+# Session 3 — Instructor README
 
 ## Model Evaluation and Comparison
 
@@ -6,36 +6,36 @@
 
 **Duration:** 1 hour 45 minutes (1:30 – 3:15)
 
+> **Note:** This session has a **student notebook only**. The instructor should use the student notebook and refer to these teaching notes for facilitation guidance.
+
 ### Suggested Timing
 
 | Segment | Duration | Content |
 |---|---|---|
-| Introduction | 10 min | Why evaluation matters for agentic systems |
-| Demo 1 | 12 min | Evaluation metrics and scoring rubrics |
-| Demo 2 | 12 min | LLM-as-a-judge automated evaluation |
-| Demo 3 | 10 min | Benchmarking response quality |
-| Demo 4 | 10 min | Latency and cost analysis |
-| Demo 5 | 10 min | A/B testing framework |
-| Task 1 | 10 min | Custom evaluation rubric |
-| Task 2 | 10 min | Model comparison |
-| Task 3 | 10 min | Evaluation pipeline |
-| Task 4 | 15 min | Analysis and visualization |
+| Introduction | 8 min | Why evaluation matters for consulting AI systems |
+| Demo 1 | 8 min | McKinsey evaluation criteria rubric |
+| Demo 2 | 10 min | LLM-as-Judge on digital transformation analysis |
+| Demo 3 | 8 min | Benchmarking on consulting prompts |
+| Demo 4 | 8 min | Cost analysis across models |
+| Demo 5 | 8 min | A/B testing with McKinsey persona |
+| Demo 6 | 10 min | Scikit-learn metrics on client feedback |
+| Demo 7 | 10 min | DeepEval/G-Eval on consulting outputs |
+| Task 1 | 8 min | Custom consulting rubric |
+| Task 2 | 8 min | Model comparison on consulting tasks |
+| Task 3 | 8 min | Evaluation pipeline |
+| Task 4 | 8 min | Visualization and analysis |
 | Wrap-up | 6 min | Q&A and key takeaways |
-
-### What's Inside
-
-- **5 Demos** — Fully executed with detailed commentary
-- **4 Solved Tasks** — Complete solutions with analysis insights
 
 ### Key Teaching Points
 
 1. Evaluation must be defined BEFORE building — not as an afterthought
-2. LLM-as-a-judge is powerful but has biases — discuss limitations
-3. Cost and latency matter as much as quality for production agents
-4. A/B testing provides statistical confidence in model selection
+2. McKinsey-quality criteria (MECE, strategic relevance, executive readiness) make evaluation concrete
+3. LLM-as-Judge is powerful but has biases — discuss limitations
+4. DeepEval provides a framework-level approach to LLM evaluation — compare with manual scoring
+5. Cost and latency matter as much as quality for production consulting agents
 
 ### Common Student Questions
 
 - "Is LLM-as-a-judge reliable?" — Generally yes for relative rankings; less so for absolute scores
 - "How many test cases do we need?" — At least 20–50 for meaningful comparison; more for production
-- "Which model is best for agents?" — It depends on the use case — that's why we evaluate!
+- "Which model is best for consulting agents?" — It depends on the use case — that's why we evaluate!

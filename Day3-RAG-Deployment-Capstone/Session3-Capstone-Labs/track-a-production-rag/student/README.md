@@ -1,6 +1,6 @@
 # Track A — Student Notebook
 
-## Production RAG Service Capstone
+## McKinsey Knowledge Assistant (Production RAG Capstone)
 
 ### Setup Instructions
 
@@ -20,7 +20,7 @@
 
 ### What's Inside
 
-- **Guided capstone project** with 4 milestones
+- **Guided capstone project** — build a McKinsey Knowledge Assistant with 4 milestones
 - Each milestone builds on the previous one
 - TODO placeholders with detailed hints at each step
 
@@ -28,14 +28,14 @@
 
 | Milestone | Topic | Duration |
 |---|---|---|
-| Milestone 1 | Document ingestion & chunking | ~20 min |
-| Milestone 2 | Embedding, indexing & retrieval | ~25 min |
-| Milestone 3 | Answer generation with citations | ~25 min |
-| Milestone 4 | Evaluation pipeline | ~25 min |
+| Milestone 1 | Consulting document ingestion & practice area chunking | ~20 min |
+| Milestone 2 | Embedding, indexing & hybrid retrieval over McKinsey knowledge base | ~25 min |
+| Milestone 3 | MECE-structured answer generation with source citations | ~25 min |
+| Milestone 4 | Consulting-specific evaluation (strategic relevance, faithfulness, executive readiness) | ~25 min |
 
 ### Tips
 
 - Work through milestones in order — each builds on the last
 - Test each milestone before moving to the next
-- Keep your chunk sizes reasonable (200-500 tokens)
-- You will present your system in Session 4
+- Think about what makes a "partner-quality" answer — MECE structure, citations, actionable recommendations
+- You will present your McKinsey Knowledge Assistant in Session 4

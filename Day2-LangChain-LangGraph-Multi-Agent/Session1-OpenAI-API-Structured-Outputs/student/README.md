@@ -20,21 +20,21 @@
 
 ### What's Inside
 
-- **5 Demos** — Follow along with the instructor. Run each cell and observe the outputs.
-- **4 Hands-On Tasks** — Complete the TODO sections. Each task includes hints to guide you.
+- **5 Demos** — Follow along with the instructor. Run each cell and observe how structured outputs are used for McKinsey consulting data extraction.
+- **4 Hands-On Tasks** — Complete the TODO sections to build consulting AI tools. Each task includes hints to guide you.
 
 ### Task Summary
 
 | Task | Topic | Difficulty |
 |---|---|---|
-| Task 1 | Build a structured entity extractor with JSON mode | Beginner |
-| Task 2 | Implement a calculator tool with function calling | Intermediate |
-| Task 3 | Create a multi-tool agent with automatic dispatch | Intermediate |
-| Task 4 | Build a robust API client with retries and validation | Advanced |
+| Task 1 | Build a competitive intelligence extractor from M&A briefings | Beginner |
+| Task 2 | Implement a financial analysis tool with function calling | Intermediate |
+| Task 3 | Create a multi-tool consulting agent (market research + financial analysis + benchmarking) | Intermediate |
+| Task 4 | Build a RobustConsultingClient with retries, validation, and streaming | Advanced |
 
 ### Tips
 
 - Read the hints carefully before writing code
 - Run demo cells first to understand the patterns
-- Ask your instructor if you get stuck on any task
-- Each task builds on concepts from the demos
+- Think about how structured outputs enable downstream consulting workflows
+- Each task builds on concepts from the demos — client profiles, engagement summaries, market research

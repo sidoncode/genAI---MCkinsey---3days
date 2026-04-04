@@ -1,19 +1,19 @@
-# Session 3 — Capstone Track A: Production RAG Service
+# Session 3 — Capstone Track A: McKinsey Knowledge Assistant (Production RAG)
 
 **Time:** 1:30 – 3:15 (1 hour 45 minutes) | **Parallel session — Track A participants only**
 
 ## Overview
 
-In this capstone lab, you will build a complete production-grade RAG service from scratch. Starting with raw documents, you will implement the full pipeline: intelligent chunking, embedding and indexing, multi-strategy retrieval, answer generation with citations, and quality evaluation. This integrates concepts from all three days.
+In this capstone lab, you will build a complete McKinsey Knowledge Assistant — a production-grade RAG service over a consulting document corpus. Starting with raw consulting documents, you will implement the full pipeline: intelligent chunking with practice area detection, embedding and indexing with metadata, multi-strategy retrieval, MECE-structured answer generation with citations, and consulting-specific quality evaluation.
 
 ## Capstone Project
 
-Build a **Technical Documentation Q&A Service** that:
-1. Ingests and chunks a corpus of technical documents
-2. Embeds and indexes chunks in a vector store
+Build a **McKinsey Knowledge Assistant** that:
+1. Ingests and chunks a corpus of consulting documents with practice area metadata
+2. Embeds and indexes chunks in a vector store with consulting-specific metadata
 3. Retrieves relevant context using hybrid search (semantic + keyword)
-4. Generates accurate answers with source citations
-5. Evaluates answer quality with automated metrics
+4. Generates MECE-structured answers with source citations
+5. Evaluates answer quality with consulting-specific metrics (strategic relevance, faithfulness, executive readiness)
 
 ## Notebooks
 
@@ -24,7 +24,7 @@ Build a **Technical Documentation Q&A Service** that:
 
 ## Milestones (4)
 
-1. **Milestone 1:** Document ingestion and intelligent chunking pipeline
-2. **Milestone 2:** Embedding, indexing, and hybrid retrieval
-3. **Milestone 3:** Answer generation with source citations
-4. **Milestone 4:** Evaluation pipeline with faithfulness and relevance metrics
+1. **Milestone 1:** Consulting document ingestion and intelligent chunking pipeline with practice area detection
+2. **Milestone 2:** Embedding, indexing, and hybrid retrieval over McKinsey knowledge base
+3. **Milestone 3:** MECE-structured answer generation with source citations
+4. **Milestone 4:** Consulting-specific evaluation pipeline (strategic relevance, faithfulness, executive readiness)

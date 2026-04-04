@@ -1,19 +1,19 @@
-# Session 3 — Capstone Track B: Multi-Agent Orchestration
+# Session 3 — Capstone Track B: McKinsey Engagement Team (Multi-Agent)
 
 **Time:** 1:30 – 3:15 (1 hour 45 minutes) | **Parallel session — Track B participants only**
 
 ## Overview
 
-In this capstone lab, you will build a complete multi-agent orchestration system. You will design and implement a team of specialized agents that collaborate to solve a complex problem — integrating supervisor patterns, tool use, state management, and quality evaluation from all three days.
+In this capstone lab, you will build a complete McKinsey Engagement Team simulation — a multi-agent orchestration system modeled on real engagement team structures. You will design and implement an Engagement Manager supervisor with specialized consulting agents (Strategy, Financial, Operations, Industry) that collaborate using LangGraph to produce partner-quality deliverables.
 
 ## Capstone Project
 
-Build a **Research & Report Generation System** with:
-1. A supervisor agent that decomposes complex requests into sub-tasks
-2. Specialized worker agents (researcher, analyst, writer)
-3. Tool-augmented agents with structured outputs
-4. Quality evaluation with automated feedback loops
-5. A final synthesized report from the multi-agent collaboration
+Build a **McKinsey Engagement Team** with:
+1. An EngagementManagerAgent supervisor that decomposes client requests into consulting workstreams
+2. Four specialized consulting agents (Strategy, Financial, Operations, Industry)
+3. LangGraph orchestration for engagement workflow coordination
+4. Partner Review quality loop for iterative deliverable refinement
+5. A synthesized engagement deliverable from the multi-agent collaboration
 
 ## Notebooks
 
@@ -24,7 +24,7 @@ Build a **Research & Report Generation System** with:
 
 ## Milestones (4)
 
-1. **Milestone 1:** Supervisor agent with task decomposition
-2. **Milestone 2:** Specialized worker agents with tools
-3. **Milestone 3:** Agent orchestration with LangGraph
-4. **Milestone 4:** Quality evaluation and self-correction loop
+1. **Milestone 1:** EngagementManagerAgent supervisor with workstream decomposition
+2. **Milestone 2:** Specialized consulting agents — Strategy, Financial, Operations, Industry
+3. **Milestone 3:** LangGraph engagement orchestration and workflow coordination
+4. **Milestone 4:** Partner Review quality loop for deliverable refinement

@@ -1,6 +1,6 @@
 # Session 2 — Student Notebook
 
-## Deployment and Scaling
+## Deployment and Scaling for Consulting AI
 
 ### Setup Instructions
 
@@ -15,26 +15,26 @@
    ```
 4. Open the notebook:
    ```bash
-   jupyter notebook Session2_Student_Deployment_Scaling.ipynb
+   jupyter notebook Session2_Student_Deployment.ipynb
    ```
 
 ### What's Inside
 
-- **5 Demos** — Follow along with the instructor. Run each cell and observe the outputs.
-- **4 Hands-On Tasks** — Complete the TODO sections. Each task includes hints to guide you.
+- **5 Demos** — Follow along with the instructor. Run each cell to see how consulting AI systems are deployed and optimized for McKinsey use cases.
+- **4 Hands-On Tasks** — Complete the TODO sections to build production consulting AI components. Each task includes hints.
 
 ### Task Summary
 
 | Task | Topic | Difficulty |
 |---|---|---|
-| Task 1 | Build a cached LLM API endpoint | Beginner |
-| Task 2 | Implement cost tracking and budget system | Intermediate |
-| Task 3 | Create a monitoring dashboard for LLM metrics | Intermediate |
-| Task 4 | Design a production deployment architecture | Advanced |
+| Task 1 | Build a RateLimitedConsultingAI service | Beginner |
+| Task 2 | Implement a ConsultingStreamingHandler for client briefings | Intermediate |
+| Task 3 | Create a ConsultingTieredCache (exact → semantic → LLM) | Intermediate |
+| Task 4 | Build a McKinseyAIGateway (routing + caching + rate limiting + monitoring) | Advanced |
 
 ### Tips
 
-- Think about cost from the start — LLM calls add up fast
-- Caching is the single biggest cost optimization for most applications
-- Monitor everything: latency, token usage, error rates, and user satisfaction
+- Think about cost from the start — consulting AI calls across engagement teams add up fast
+- Semantic caching is the single biggest optimization — many teams ask similar questions
+- Monitor everything: latency, token usage, error rates, and consulting quality scores
 - At the end of this session, you will choose your capstone track (A or B) for Session 3

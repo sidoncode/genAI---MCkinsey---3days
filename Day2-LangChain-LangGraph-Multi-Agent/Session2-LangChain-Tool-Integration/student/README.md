@@ -1,6 +1,6 @@
 # Session 2 — Student Notebook
 
-## LangChain Development & Tool Integration
+## LangChain Development & Consulting Tool Integration
 
 ### Setup Instructions
 
@@ -20,21 +20,21 @@
 
 ### What's Inside
 
-- **5 Demos** — Follow along with the instructor. Run each cell and observe the outputs.
-- **4 Hands-On Tasks** — Complete the TODO sections. Each task includes hints to guide you.
+- **5 Demos** — Follow along with the instructor. Run each cell to see how LangChain enables McKinsey consulting analysis pipelines.
+- **4 Hands-On Tasks** — Complete the TODO sections to build consulting tools and RAG systems. Each task includes hints.
 
 ### Task Summary
 
 | Task | Topic | Difficulty |
 |---|---|---|
-| Task 1 | Build a chain with prompt templates and output parsers | Beginner |
-| Task 2 | Create custom tools for math and text processing | Intermediate |
-| Task 3 | Implement a conversational chain with memory | Intermediate |
-| Task 4 | Build a RAG-powered Q&A system | Advanced |
+| Task 1 | Build a consulting analysis chain with JSON output | Beginner |
+| Task 2 | Create custom consulting tools (competitor analysis, market sizing, engagement ROI) | Intermediate |
+| Task 3 | Implement a ConsultingAdvisor with conversation memory | Intermediate |
+| Task 4 | Build a ConsultingRAG class with document splitting and retrieval | Advanced |
 
 ### Tips
 
 - Read the hints carefully before writing code
 - Run demo cells first to understand the patterns
-- Ask your instructor if you get stuck on any task
-- LCEL uses the `|` (pipe) operator — think of it as Unix pipes for LLM calls
+- LCEL uses the `|` (pipe) operator — think of it as Unix pipes for consulting analysis chains
+- The `@tool` decorator is your best friend for creating custom consulting tools

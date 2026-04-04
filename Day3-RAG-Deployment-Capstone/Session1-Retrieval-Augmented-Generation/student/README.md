@@ -1,6 +1,6 @@
 # Session 1 — Student Notebook
 
-## Retrieval-Augmented Generation (RAG)
+## Retrieval-Augmented Generation for Consulting Knowledge
 
 ### Setup Instructions
 
@@ -20,21 +20,21 @@
 
 ### What's Inside
 
-- **5 Demos** — Follow along with the instructor. Run each cell and observe the outputs.
-- **4 Hands-On Tasks** — Complete the TODO sections. Each task includes hints to guide you.
+- **5 Demos** — Follow along with the instructor. Run each cell to see how RAG retrieves and reasons over McKinsey consulting knowledge.
+- **4 Hands-On Tasks** — Complete the TODO sections to build consulting knowledge retrieval systems. Each task includes hints.
 
 ### Task Summary
 
 | Task | Topic | Difficulty |
 |---|---|---|
-| Task 1 | Build an embedding-based document search engine | Beginner |
-| Task 2 | Implement a multi-strategy chunking pipeline | Intermediate |
-| Task 3 | Create a query expansion and reranking system | Intermediate |
-| Task 4 | Build a production RAG pipeline with evaluation | Advanced |
+| Task 1 | Build a SearchEngine class over a consulting knowledge corpus | Beginner |
+| Task 2 | Implement a SmartChunker (strategy reports vs. analytics code vs. engagement notes) | Intermediate |
+| Task 3 | Create an AdvancedRetriever with query expansion and reranking | Intermediate |
+| Task 4 | Build an EvaluatedRAG system with relevance, faithfulness, and completeness metrics | Advanced |
 
 ### Tips
 
 - Read the hints carefully before writing code
 - Run demo cells first to understand the patterns
-- Embeddings are numerical representations — think of them as coordinates in meaning-space
-- Better chunking = better retrieval = better answers
+- Embeddings are numerical representations — think of them as coordinates in consulting-meaning-space
+- Better chunking of consulting reports = better retrieval = better answers for engagement teams
