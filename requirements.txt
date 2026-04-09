@@ -2,12 +2,9 @@ openai
 langchain
 langchain-core
 langchain-openai
-langchain-text-splitters
-langchain-community
 langgraph
 chromadb
 deepeval
-nest-asyncio
 tiktoken
 pandas
 numpy

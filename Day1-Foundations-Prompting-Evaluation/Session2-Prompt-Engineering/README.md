@@ -19,8 +19,8 @@ This session dives deep into prompt engineering techniques specifically designed
 
 | Notebook | Description |
 |---|---|
-| `student/Session2_Student_Prompt_Engineering.ipynb` | 6 guided demos + 8 TODO exercises with hints |
-| `instructor/Session2_Instructor_Prompt_Engineering.ipynb` | 6 demos + 8 exercises with full solutions and approach explanations |
+| `student/Session2_Student_Prompt_Engineering.ipynb` | 6 guided demos + 4 TODO exercises with hints |
+| `instructor/Session2_Instructor_Prompt_Engineering.ipynb` | 6 fully solved demos + 4 exercises with explanations |
 
 ## Demos (6)
 
@@ -31,15 +31,9 @@ This session dives deep into prompt engineering techniques specifically designed
 5. **Demo 5:** Multi-turn conversation — insurance engagement planning with context accumulation
 6. **Demo 6:** LangChain prompt templates — structured consulting deliverables with output parsers
 
-## Exercises (8)
+## Exercises (4)
 
-| Task | Topic | Difficulty |
-|---|---|---|
-| Task 1 | Design system prompts for a McKinsey Industry Research Agent | Beginner |
-| Task 2 | Implement ReAct-style prompting for PE due diligence | Intermediate |
-| Task 3 | Create a reusable McKinsey prompt template library (market sizing, executive briefing, competitive analysis) | Intermediate |
-| Task 4 | Build a McKinsey Analyst Agent with consulting tools (market database, financial model, benchmarking) | Advanced |
-| Task 5 | Build a few-shot consulting deliverable classifier (strategy deck, due diligence, market sizing, operational review) | Intermediate |
-| Task 6 | Chain-of-Thought market sizing agent — direct vs. CoT comparison with structured 5-section output | Intermediate |
-| Task 7 | Extract structured data from client meeting notes using JSON mode (attendees, decisions, action items, risks) | Intermediate |
-| Task 8 | Build a conversation summarizer for long engagements with auto-summarization | Advanced |
+1. **Task 1:** Design system prompts for a McKinsey Industry Research Agent
+2. **Task 2:** Implement ReAct-style prompting for PE due diligence
+3. **Task 3:** Create a reusable McKinsey prompt template library (market sizing, executive briefing, competitive analysis)
+4. **Task 4:** Build a McKinsey Analyst Agent with consulting tools (market database, financial model, benchmarking)

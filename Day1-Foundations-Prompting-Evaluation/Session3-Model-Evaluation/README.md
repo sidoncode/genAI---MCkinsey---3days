@@ -20,8 +20,7 @@ This session covers how to systematically evaluate and compare LLM models for ag
 
 | Notebook | Description |
 |---|---|
-| `student/Session3_Student_Model_Evaluation.ipynb` | 7 guided demos + 8 TODO exercises with hints |
-| `instructor/Session3_Instructor_Model_Evaluation.ipynb` | 7 demos + 8 exercises with full solutions and approach explanations |
+| `student/Session3_Student_Model_Evaluation.ipynb` | 7 guided demos + 4 TODO exercises with hints |
 
 ## Demos (7)
 
@@ -33,15 +32,9 @@ This session covers how to systematically evaluate and compare LLM models for ag
 6. **Demo 6:** Scikit-learn metrics — precision, recall, F1 on McKinsey client feedback classification
 7. **Demo 7:** DeepEval/G-Eval — hub-and-spoke operating models, PE digital transformation
 
-## Exercises (8)
+## Exercises (4)
 
-| Task | Topic | Difficulty |
-|---|---|---|
-| Task 1 | Create a custom evaluation rubric for McKinsey consulting AI | Beginner |
-| Task 2 | Compare multiple models on McKinsey consulting tasks | Intermediate |
-| Task 3 | Build an automated evaluation pipeline with consulting test cases | Advanced |
-| Task 4 | Visualize evaluation results with bar charts, radar charts, and scatter plots | Intermediate |
-| Task 5 | Build a G-Eval rubric scorer for consulting deliverables | Intermediate |
-| Task 6 | Build a pairwise model comparison judge with position-bias mitigation | Advanced |
-| Task 7 | Evaluate LLM consistency with repeated sampling across temperatures | Intermediate |
-| Task 8 | Build a model selection report generator with cost and quality analysis | Advanced |
+1. **Task 1:** Create a custom evaluation rubric for McKinsey consulting AI
+2. **Task 2:** Compare multiple models on McKinsey consulting tasks
+3. **Task 3:** Build an automated evaluation pipeline with consulting test cases
+4. **Task 4:** Visualize McKinsey consulting evaluation results with radar charts

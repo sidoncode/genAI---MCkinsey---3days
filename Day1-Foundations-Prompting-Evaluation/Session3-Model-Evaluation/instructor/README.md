@@ -1,4 +1,4 @@
-# Session 3 — Instructor Notebook
+# Session 3 — Instructor README
 
 ## Model Evaluation and Comparison
 
@@ -6,10 +6,7 @@
 
 **Duration:** 1 hour 45 minutes (1:30 – 3:15)
 
-### What's Inside
-
-- **7 Demos** — Fully executed with detailed commentary and talking points
-- **8 Solved Tasks** — Complete solutions with step-by-step explanations and approach descriptions
+> **Note:** This session has a **student notebook only**. The instructor should use the student notebook and refer to these teaching notes for facilitation guidance.
 
 ### Suggested Timing
 
@@ -23,15 +20,11 @@
 | Demo 5 | 8 min | A/B testing with McKinsey persona |
 | Demo 6 | 10 min | Scikit-learn metrics on client feedback |
 | Demo 7 | 10 min | DeepEval/G-Eval on consulting outputs |
-| Task 1 | 5 min | Custom consulting rubric |
-| Task 2 | 6 min | Model comparison on consulting tasks |
-| Task 3 | 6 min | Evaluation pipeline |
-| Task 4 | 5 min | Visualization and analysis |
-| Task 5 | 5 min | G-Eval rubric scorer |
-| Task 6 | 6 min | Pairwise model comparison judge |
-| Task 7 | 5 min | LLM consistency with repeated sampling |
-| Task 8 | 6 min | Model selection report generator |
-| Wrap-up | 5 min | Q&A and key takeaways |
+| Task 1 | 8 min | Custom consulting rubric |
+| Task 2 | 8 min | Model comparison on consulting tasks |
+| Task 3 | 8 min | Evaluation pipeline |
+| Task 4 | 8 min | Visualization and analysis |
+| Wrap-up | 6 min | Q&A and key takeaways |
 
 ### Key Teaching Points
 
