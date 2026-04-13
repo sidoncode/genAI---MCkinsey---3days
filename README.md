@@ -202,24 +202,26 @@ Navigate to the appropriate Day and Session folder, then open the **student/** o
 
 ### Key Patterns Covered
 
-1. **Embeddings & Vectors** — Consulting document embeddings, cosine similarity, semantic search *(Day 1, Session 1)*
-2. **LLM Reasoning** — MECE decomposition, engagement planning, tool selection for consulting workflows *(Day 1, Session 1)*
-3. **API Cost Estimation** — Token counting, per-token pricing, engagement cost budgeting *(Day 1, Session 1)*
-4. **Context-Aware Routing** — Classify-then-route pattern — routing to practice-specific agent personas *(Day 1, Session 1)*
-5. **Self-Reflection Pipeline** — Multi-step analysis with LLM quality review of its own output *(Day 1, Session 1)*
-6. **Prompt Engineering** — Few-shot, chain-of-thought, ReAct — applied to McKinsey consulting analysis *(Day 1, Session 2)*
-7. **LLM-as-Judge Evaluation** — Automated quality scoring for consulting deliverables *(Day 1 & Day 3)*
-8. **Structured Outputs** — JSON mode, function calling, Pydantic — extracting client profiles and engagement data *(Day 1-2)*
-9. **LCEL Chains** — Composable prompt → model → parser pipelines for consulting analysis *(Day 2, Session 2)*
-10. **Tool Use** — Custom consulting tools (market research, financial modeling, benchmarking) *(Day 2, Session 2)*
-11. **StateGraph Workflows** — Conditional edges, cycles — modeling consulting engagement lifecycles *(Day 2, Session 3)*
-12. **Multi-Agent Systems** — Supervisor-worker teams modeling McKinsey engagement structures *(Day 2, Session 4)*
-13. **RAG Pipeline** — Embed → index → retrieve → generate with McKinsey knowledge bases *(Day 3, Session 1)*
-14. **Advanced Chunking** — Recursive, markdown-aware splitting of consulting reports and whitepapers *(Day 3, Session 1)*
-15. **Query Transformation** — Multi-query expansion, HyDE for comprehensive consulting research *(Day 3, Session 1)*
-16. **Semantic Caching** — Embedding-based cache for similar consulting queries *(Day 3, Session 2)*
-17. **Model Routing** — Complexity-based routing (simple lookups vs. strategy analysis) *(Day 3, Session 2)*
-18. **AI Governance** — Guardrails, bias detection, audit logging for consulting AI deployment *(Day 3, Session 4)*
+| # | Pattern | Description | Session |
+|---|---------|-------------|---------|
+| 1 | **Embeddings & Vectors** | Consulting document embeddings, cosine similarity, semantic search | Day 1, Session 1 |
+| 2 | **LLM Reasoning** | MECE decomposition, engagement planning, tool selection for consulting workflows | Day 1, Session 1 |
+| 3 | **API Cost Estimation** | Token counting, per-token pricing, engagement cost budgeting | Day 1, Session 1 |
+| 4 | **Context-Aware Routing** | Classify-then-route pattern — routing to practice-specific agent personas | Day 1, Session 1 |
+| 5 | **Self-Reflection Pipeline** | Multi-step analysis with LLM quality review of its own output | Day 1, Session 1 |
+| 6 | **Prompt Engineering** | Few-shot, chain-of-thought, ReAct — applied to McKinsey consulting analysis | Day 1, Session 2 |
+| 7 | **LLM-as-Judge Evaluation** | Automated quality scoring for consulting deliverables | Day 1 & Day 3 |
+| 8 | **Structured Outputs** | JSON mode, function calling, Pydantic — extracting client profiles and engagement data | Day 1-2 |
+| 9 | **LCEL Chains** | Composable prompt → model → parser pipelines for consulting analysis | Day 2, Session 2 |
+| 10 | **Tool Use** | Custom consulting tools (market research, financial modeling, benchmarking) | Day 2, Session 2 |
+| 11 | **StateGraph Workflows** | Conditional edges, cycles — modeling consulting engagement lifecycles | Day 2, Session 3 |
+| 12 | **Multi-Agent Systems** | Supervisor-worker teams modeling McKinsey engagement structures | Day 2, Session 4 |
+| 13 | **RAG Pipeline** | Embed → index → retrieve → generate with McKinsey knowledge bases | Day 3, Session 1 |
+| 14 | **Advanced Chunking** | Recursive, markdown-aware splitting of consulting reports and whitepapers | Day 3, Session 1 |
+| 15 | **Query Transformation** | Multi-query expansion, HyDE for comprehensive consulting research | Day 3, Session 1 |
+| 16 | **Semantic Caching** | Embedding-based cache for similar consulting queries | Day 3, Session 2 |
+| 17 | **Model Routing** | Complexity-based routing (simple lookups vs. strategy analysis) | Day 3, Session 2 |
+| 18 | **AI Governance** | Guardrails, bias detection, audit logging for consulting AI deployment | Day 3, Session 4 |
 
 ---
 
