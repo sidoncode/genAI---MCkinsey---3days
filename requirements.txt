@@ -12,4 +12,4 @@ matplotlib
 scikit-learn
 pydantic
 python-dotenv
-tavily-py
+tavily-python
